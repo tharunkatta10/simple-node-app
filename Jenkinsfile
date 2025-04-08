@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/tharun-katta/simple-node-app.git'
+                git 'https://github.com/tharunkatta/simple-node-app.git'
             }
         }
 
